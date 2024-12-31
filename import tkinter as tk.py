@@ -75,7 +75,7 @@ nb.add(p2, text='Registro')
 label_nombre = tk.Label(pl, text="Cartera", font=("Arial", 16))
 label_nombre.place(x=50, y=50)
 
-carteras_disponibles = ["VANA", "BAM ", "GYT", "PROAMERICA", "BAC", "BAM ADMIN", "BI", "EMBARGOS", "ADMINISTACION"]
+carteras_disponibles = ["VANA", "BAM ", "GYT", "PROAMERICA", "BAC", "BAM ADMIN", "BI", "EMBARGOS", "ADMINISTACION","PROCU"]
 combobox_nivel = ttk.Combobox(pl, values=carteras_disponibles, state="readonly", width=45)
 combobox_nivel.place(x=150, y=50) 
 

@@ -94,8 +94,8 @@ def mostrar_datos_usuarios():
             host="localhost",
             user="root",
             password="admin",
-            database="Usuario",
-            port=3306 
+            database="usuario",
+            port=33017
         )
         print("Conexión exitosa a la base de datos.")
 
